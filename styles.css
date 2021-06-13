@@ -1,0 +1,53 @@
+body {
+  background-color: rgb(238, 240, 241);
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(61, 60, 60);
+}
+
+textarea {
+  box-sizing: content-box;
+  width: 380px;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  box-shadow: inset 2px 2px 5px rgb(185, 178, 178),
+    2px 2px 5px rgb(185, 178, 178);
+}
+
+textarea::placeholder {
+  padding-left: 15px;
+  font-size: 16px;
+}
+h2 {
+  margin-top: 200px;
+  font-size: 25px;
+  height: 100px;
+  width: 400px;
+}
+
+button {
+  height: 30px;
+  width: 80px;
+  margin-top: 15px;
+  margin-left: 20px;
+  background-color: aliceblue;
+  outline: none;
+  border-radius: 5px;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-size: 18px;
+  border: none;
+  box-shadow: inset 2px 2px 5px rgb(185, 178, 178), 2px 2px 5px rgb(85, 83, 83);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}
